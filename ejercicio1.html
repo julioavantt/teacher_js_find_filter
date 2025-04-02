@@ -1,62 +1,62 @@
 <script>
- const dragonBall = [
-  {
-   nombre: "Goku",
-   raza: "Saiyajin",
-   transformaciones: {
-    base: { poder: 5000 },
-    superSaiyajin: { poder: 150000 },
-    ultraInstinto: { poder: 10000000 },
-   },
-   origen: {
-    planeta: "Vegeta",
-    maestro: {
-     nombre: "Roshi",
-     tecnica: "Kamehameha",
-    },
-   },
-  },
-  {
-   nombre: "Vegeta",
-   raza: "Saiyajin",
-   transformaciones: {
-    base: { poder: 4800 },
-    superSaiyajin: { poder: 140000 },
-    ultraEgo: { poder: 9000000 },
-   },
-   origen: {
-    planeta: "Vegeta",
-    maestro: {
-     nombre: "Bills",
-     tecnica: "Hakai",
-    },
-   },
-  },
-  {
-   nombre: "Piccolo",
-   raza: "Namekiano",
-   transformaciones: {
-    base: { poder: 3500 },
-    orange: { poder: 1200000 },
-    fusionKami: { poder: 800000 },
-   },
-   origen: {
-    planeta: "Namek",
-    maestro: {
-     nombre: "Kami",
-     tecnica: "Makankosappo",
-    },
-   },
-  },
- ];
+	const dragonBall = [
+		{
+			nombre: "Goku",
+			raza: "Saiyajin",
+			transformaciones: {
+				base: { poder: 5000 },
+				superSaiyajin: { poder: 150000 },
+				ultraInstinto: { poder: 10000000 },
+			},
+			origen: {
+				planeta: "Vegeta",
+				maestro: {
+					nombre: "Roshi",
+					tecnica: "Kamehameha",
+				},
+			},
+		},
+		{
+			nombre: "Vegeta",
+			raza: "Saiyajin",
+			transformaciones: {
+				base: { poder: 4800 },
+				superSaiyajin: { poder: 140000 },
+				ultraEgo: { poder: 9000000 },
+			},
+			origen: {
+				planeta: "Vegeta",
+				maestro: {
+					nombre: "Bills",
+					tecnica: "Hakai",
+				},
+			},
+		},
+		{
+			nombre: "Piccolo",
+			raza: "Namekiano",
+			transformaciones: {
+				base: { poder: 3500 },
+				orange: { poder: 1200000 },
+				fusionKami: { poder: 800000 },
+			},
+			origen: {
+				planeta: "Namek",
+				maestro: {
+					nombre: "Kami",
+					tecnica: "Makankosappo",
+				},
+			},
+		},
+	]
 
- const encontrar = dragonBall.find(
-  (poke) => poke.transformaciones.base.poder > 4000
- );
+	const encontrar = dragonBall.find(
+		poke => poke.transformaciones.base.poder > 4000
+	)
 
- const filtrar = dragonBall.filter(
-  (poke) => poke.transformaciones.base.poder > 4000
- );
+	const filtrar = dragonBall.filter(
+		poke => poke.transformaciones.base.poder > 4000
+	)
 
- console.log({ encontrar, filtrar });
+	console.log({ encontrar, filtrar })
 </script>

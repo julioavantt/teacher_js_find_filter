@@ -1,37 +1,37 @@
 <script>
- const jugadoresNBA = [
-  {
-   nombre: "Nikola Jokić",
-   stats: {
-    puntos: { promedio: 25.1, maximo: 53 },
-    rebotes: { promedio: 11.8, maximo: 22 },
-    asistencias: { promedio: 9.3, maximo: 18 },
-   },
-  },
-  {
-   nombre: "Russell Westbrook",
-   stats: {
-    puntos: { promedio: 22.5, maximo: 58 },
-    rebotes: { promedio: 7.3, maximo: 21 },
-    asistencias: { promedio: 8.4, maximo: 24 },
-   },
-  },
-  {
-   nombre: "LeBron James",
-   stats: {
-    puntos: { promedio: 27.2, maximo: 61 },
-    rebotes: { promedio: 7.5, maximo: 20 },
-    asistencias: { promedio: 7.3, maximo: 19 },
-   },
-  },
- ];
+	const jugadoresNBA = [
+		{
+			nombre: "Nikola Jokić",
+			stats: {
+				puntos: { promedio: 25.1, maximo: 53 },
+				rebotes: { promedio: 11.8, maximo: 22 },
+				asistencias: { promedio: 9.3, maximo: 18 },
+			},
+		},
+		{
+			nombre: "Russell Westbrook",
+			stats: {
+				puntos: { promedio: 22.5, maximo: 58 },
+				rebotes: { promedio: 7.3, maximo: 21 },
+				asistencias: { promedio: 8.4, maximo: 24 },
+			},
+		},
+		{
+			nombre: "LeBron James",
+			stats: {
+				puntos: { promedio: 27.2, maximo: 61 },
+				rebotes: { promedio: 7.5, maximo: 20 },
+				asistencias: { promedio: 7.3, maximo: 19 },
+			},
+		},
+	]
 
- function fn(array) {
-  const bestPlayer = array.find(
-   (player) => player.stats.asistencias.maximo > 20
-  );
-  return `${bestPlayer.nombre} tiene un promedio de ${bestPlayer.stats.rebotes.promedio} rebotes`;
- }
+	function fn(array) {
+		const bestPlayer = array.find(
+			player => player.stats.asistencias.maximo > 20
+		)
+		return `${bestPlayer.nombre} tiene un promedio de ${bestPlayer.stats.rebotes.promedio} rebotes`
+	}
 
- console.log(fn(jugadoresNBA));
+	console.log(fn(jugadoresNBA))
 </script>

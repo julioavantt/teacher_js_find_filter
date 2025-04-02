@@ -11,12 +11,12 @@
 
 ## Sobre mi
 
-- ⭐ Programo desde 2007 años, tengo 22 años.
-- 📲 Me especializo en Frontend.
-- 🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web. En Guayerd HTML, CSS, Javascript.
-- ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Coderhouse, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
-- 🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
-  <br>
+-  ⭐ Programo desde 2007 años, tengo 22 años.
+-  📲 Me especializo en Frontend.
+-  🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web. En Guayerd HTML, CSS, Javascript.
+-  ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Coderhouse, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
+-  🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
+   <br>
 
 ## Este repo trata sobre: Animate a FIND Y FILTER 👩🏻‍🦰🧒🏻!
 
@@ -28,55 +28,55 @@ Usar **find** y **filter** con la condición de que el poder base de transformac
 
 ```javascript
 const dragonBall = [
- {
-  nombre: "Goku",
-  raza: "Saiyajin",
-  transformaciones: {
-   base: { poder: 5000 },
-   superSaiyajin: { poder: 150000 },
-   ultraInstinto: { poder: 10000000 },
-  },
-  origen: {
-   planeta: "Vegeta",
-   maestro: {
-    nombre: "Roshi",
-    tecnica: "Kamehameha",
-   },
-  },
- },
- {
-  nombre: "Vegeta",
-  raza: "Saiyajin",
-  transformaciones: {
-   base: { poder: 4800 },
-   superSaiyajin: { poder: 140000 },
-   ultraEgo: { poder: 9000000 },
-  },
-  origen: {
-   planeta: "Vegeta",
-   maestro: {
-    nombre: "Bills",
-    tecnica: "Hakai",
-   },
-  },
- },
- {
-  nombre: "Piccolo",
-  raza: "Namekiano",
-  transformaciones: {
-   base: { poder: 3500 },
-   orange: { poder: 1200000 },
-   fusionKami: { poder: 800000 },
-  },
-  origen: {
-   planeta: "Namek",
-   maestro: {
-    nombre: "Kami",
-    tecnica: "Makankosappo",
-   },
-  },
- },
-];
+	{
+		nombre: "Goku",
+		raza: "Saiyajin",
+		transformaciones: {
+			base: { poder: 5000 },
+			superSaiyajin: { poder: 150000 },
+			ultraInstinto: { poder: 10000000 },
+		},
+		origen: {
+			planeta: "Vegeta",
+			maestro: {
+				nombre: "Roshi",
+				tecnica: "Kamehameha",
+			},
+		},
+	},
+	{
+		nombre: "Vegeta",
+		raza: "Saiyajin",
+		transformaciones: {
+			base: { poder: 4800 },
+			superSaiyajin: { poder: 140000 },
+			ultraEgo: { poder: 9000000 },
+		},
+		origen: {
+			planeta: "Vegeta",
+			maestro: {
+				nombre: "Bills",
+				tecnica: "Hakai",
+			},
+		},
+	},
+	{
+		nombre: "Piccolo",
+		raza: "Namekiano",
+		transformaciones: {
+			base: { poder: 3500 },
+			orange: { poder: 1200000 },
+			fusionKami: { poder: 800000 },
+		},
+		origen: {
+			planeta: "Namek",
+			maestro: {
+				nombre: "Kami",
+				tecnica: "Makankosappo",
+			},
+		},
+	},
+]
 ```
 
 ### Ejercicio 2
@@ -87,29 +87,29 @@ Hacer una función **fn** que retorne el nombre y el promedio de rebotes del jug
 
 ```javascript
 const jugadoresNBA = [
- {
-  nombre: "Nikola Jokić",
-  stats: {
-   puntos: { promedio: 25.1, maximo: 53 },
-   rebotes: { promedio: 11.8, maximo: 22 },
-   asistencias: { promedio: 9.3, maximo: 18 },
-  },
- },
- {
-  nombre: "Russell Westbrook",
-  stats: {
-   puntos: { promedio: 22.5, maximo: 58 },
-   rebotes: { promedio: 7.3, maximo: 21 },
-   asistencias: { promedio: 8.4, maximo: 24 },
-  },
- },
- {
-  nombre: "LeBron James",
-  stats: {
-   puntos: { promedio: 27.2, maximo: 61 },
-   rebotes: { promedio: 7.5, maximo: 20 },
-   asistencias: { promedio: 7.3, maximo: 19 },
-  },
- },
-];
+	{
+		nombre: "Nikola Jokić",
+		stats: {
+			puntos: { promedio: 25.1, maximo: 53 },
+			rebotes: { promedio: 11.8, maximo: 22 },
+			asistencias: { promedio: 9.3, maximo: 18 },
+		},
+	},
+	{
+		nombre: "Russell Westbrook",
+		stats: {
+			puntos: { promedio: 22.5, maximo: 58 },
+			rebotes: { promedio: 7.3, maximo: 21 },
+			asistencias: { promedio: 8.4, maximo: 24 },
+		},
+	},
+	{
+		nombre: "LeBron James",
+		stats: {
+			puntos: { promedio: 27.2, maximo: 61 },
+			rebotes: { promedio: 7.5, maximo: 20 },
+			asistencias: { promedio: 7.3, maximo: 19 },
+		},
+	},
+]
 ```
