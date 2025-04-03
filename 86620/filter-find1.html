@@ -1,0 +1,64 @@
+<script>
+ /* Usar find y filter con la condición de que el poder base de transformaciones sea mayor a 4000: */
+
+ const dragonBall = [
+  {
+   nombre: "Goku",
+   raza: "Saiyajin",
+   transformaciones: {
+    base: { poder: 5000 },
+    superSaiyajin: { poder: 150000 },
+    ultraInstinto: { poder: 10000000 },
+   },
+   origen: {
+    planeta: "Vegeta",
+    maestro: {
+     nombre: "Roshi",
+     tecnica: "Kamehameha",
+    },
+   },
+  },
+  {
+   nombre: "Vegeta",
+   raza: "Saiyajin",
+   transformaciones: {
+    base: { poder: 4800 },
+    superSaiyajin: { poder: 140000 },
+    ultraEgo: { poder: 9000000 },
+   },
+   origen: {
+    planeta: "Vegeta",
+    maestro: {
+     nombre: "Bills",
+     tecnica: "Hakai",
+    },
+   },
+  },
+  {
+   nombre: "Piccolo",
+   raza: "Namekiano",
+   transformaciones: {
+    base: { poder: 3500 },
+    orange: { poder: 1200000 },
+    fusionKami: { poder: 800000 },
+   },
+   origen: {
+    planeta: "Namek",
+    maestro: {
+     nombre: "Kami",
+     tecnica: "Makankosappo",
+    },
+   },
+  },
+ ];
+
+ const filtered = dragonBall.filter(
+  (pokemon) => pokemon.transformaciones.base.poder > 4000
+ );
+ console.log(filtered);
+
+ const finded = dragonBall.find(
+  (pokemon) => pokemon.transformaciones.base.poder > 4000
+ );
+ console.log(finded.nombre);
+</script>

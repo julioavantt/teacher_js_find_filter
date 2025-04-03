@@ -1,0 +1,37 @@
+<script>
+ /*     Hacer una función fn que retorne el nombre y el promedio de rebotes del jugador con más de 20 asistencias en su máximo: */
+
+ const jugadoresNBA = [
+  {
+   nombre: "Nikola Jokić",
+   stats: {
+    puntos: { promedio: 25.1, maximo: 53 },
+    rebotes: { promedio: 11.8, maximo: 22 },
+    asistencias: { promedio: 9.3, maximo: 18 },
+   },
+  },
+  {
+   nombre: "Russell Westbrook",
+   stats: {
+    puntos: { promedio: 22.5, maximo: 58 },
+    rebotes: { promedio: 7.3, maximo: 21 },
+    asistencias: { promedio: 8.4, maximo: 24 },
+   },
+  },
+  {
+   nombre: "LeBron James",
+   stats: {
+    puntos: { promedio: 27.2, maximo: 61 },
+    rebotes: { promedio: 7.5, maximo: 20 },
+    asistencias: { promedio: 7.3, maximo: 19 },
+   },
+  },
+ ];
+
+ function fn(array) {
+  const jugador = array.find((player) => player.stats.asistencias.maximo > 20);
+  return `${jugador.nombre} tiene un promedio de ${jugador.stats.rebotes.promedio}`;
+ }
+
+ console.log(fn(jugadoresNBA));
+</script>
